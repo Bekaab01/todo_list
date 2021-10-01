@@ -2,7 +2,6 @@ let inputEl = document.getElementById("input-el");
 let saveBtn = document.getElementById("save-btn");
 let ulEl = document.getElementById("ul-el");
 let ulEl2 = document.getElementById("prev-lists");
-let recycleBtn = document.getElementById("recycle-btn");
 let myList = [];
 
 saveBtn.addEventListener("click", function () {
@@ -34,10 +33,3 @@ function clearLists() {
         ulEl2.innerHTML = "";
         localStorage.clear();
     }
-function rec() {
-    alert("hello world this is Beka abera")
-
-}
-recycleBtn.addEventListener("click", function() {
-    alert("hello");
-})
