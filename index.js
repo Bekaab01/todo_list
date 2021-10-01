@@ -33,3 +33,6 @@ function clearLists() {
         ulEl2.innerHTML = "";
         localStorage.clear();
     }
+function recycleBtn() {
+    localStorage.setItem("recycle", recyledItems);
+}

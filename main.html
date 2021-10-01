@@ -5,17 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>To-Do List</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <div id="header-el">
-        <h1 id="td-el">TO-DO LIST</h1>
-    </div>
+        <h1 id="td-el">TO-DO LIST</h1>  
+        <img src="<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Trash Bin</title><path d="M432 144l-28.67 275.74A32 32 0 01371.55 448H140.46a32 32 0 01-31.78-28.26L80 144" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><rect x="32" y="64" width="448" height="80" rx="16" ry="16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M312 240L200 352M312 352L200 240"/></svg>" alt="recycle icon">
+    </div> 
     <div id="main-el">
         <p id="save-par">Save your one week todo list here!</p> <hr>
 
         <label for="text">To-Do List <input type="text" id="input-el" placeholder="Enter your To-Do List here"></label> 
 
-        <span class="span-el"><button id="save-btn" class="button-el" onclick="saveClick()">Save To-Do List</button> <button id="pervious-btn" class="button-el" onclick="previousBtn()">Saved Lists</button> <button onclick="clearLists()" id="clear" class="button-el">Clear saved lists</button></span>
+        <span class="span-el"><button id="save-btn" class="button-el" onclick="saveClick()">Save To-Do List</button>
+             <button id="pervious-btn" class="button-el" onclick="previousBtn()">Saved Lists</button> <button onclick="clearLists()" id="clear" class="button-el">Clear saved lists</button>
+            </span>
 <br>  
 
         <span id="lists-el">Lists</span> <span id="prev-el">previous list</span>
